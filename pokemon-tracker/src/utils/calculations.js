@@ -1,6 +1,6 @@
 export const calculateProfit = (trade) => (trade.sellPrice ?? 0) - trade.buyPrice
 
-export const totalProfit = (trades) => trades.reduce((sum, trade) => sum + calculateProfit(trade), 0)
+export const totalProfit = (trades) => trades.reduce((sum, trade) => sum + (trade.sellPrice !== null ? calculateProfit(trade) : 0), 0)
 
 export const totalSpent = (trades) => trades.reduce((sum, trade) => sum + trade.buyPrice, 0)
 

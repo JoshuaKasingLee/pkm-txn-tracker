@@ -12,8 +12,12 @@ import Filters from './components/Filters.jsx'
 import Summary from './components/Summary.jsx'
 import TradesTable from './components/TradesTable.jsx'
 
-const DEFAULT_SORT = { key: 'profit', direction: 'desc' }
-const initialFilters = { search: '', status: 'all', profit: 'all' }
+const DEFAULT_SORT = { key: 'none', direction: 'desc' }
+const initialFilters = { search: '', status: 'all', source: 'all' }
+
+const isRetail = (buySource) => {
+  return buySource.toLowerCase().includes('retail')
+}
 
 const isActiveTrade = (trade) =>
   Boolean(
@@ -44,12 +48,11 @@ const filterTrades = (trades, filters) => {
       return false
     }
 
-    const profit = calculateProfit(trade)
-    if (filters.profit === 'profitable' && profit <= 0) {
+    if (filters.source === 'retail' && !isRetail(trade.buySource)) {
       return false
     }
 
-    if (filters.profit === 'loss' && profit >= 0) {
+    if (filters.source === 'non-retail' && isRetail(trade.buySource)) {
       return false
     }
 
@@ -58,6 +61,10 @@ const filterTrades = (trades, filters) => {
 }
 
 const sortTrades = (trades, sortConfig) => {
+  if (sortConfig.key === 'none') {
+    return [...trades]
+  }
+
   const sorted = [...trades]
   const order = sortConfig.direction === 'asc' ? 1 : -1
 
@@ -77,6 +84,9 @@ const sortTrades = (trades, sortConfig) => {
     } else if (sortConfig.key === 'item') {
       aValue = a.item.toLowerCase()
       bValue = b.item.toLowerCase()
+    } else if (sortConfig.key === 'buySource') {
+      aValue = a.buySource.toLowerCase()
+      bValue = b.buySource.toLowerCase()
     }
 
     if (aValue < bValue) return -1 * order

@@ -30,7 +30,9 @@ function TradesTable({ trades, sortConfig, onSort }) {
                 Buy date <span>{renderSortIndicator('buyDate')}</span>
               </th>
               <th>Sell date</th>
-              <th>Buy source</th>
+              <th onClick={() => onSort('buySource')}>
+                Buy source <span>{renderSortIndicator('buySource')}</span>
+              </th>
               <th>Notes</th>
             </tr>
           </thead>
@@ -42,8 +44,8 @@ function TradesTable({ trades, sortConfig, onSort }) {
                   <td>{trade.item || '—'}</td>
                   <td>{formatCurrency(trade.buyPrice)}</td>
                   <td>{trade.sellPrice !== null ? formatCurrency(trade.sellPrice) : '—'}</td>
-                  <td className={`profit ${profit >= 0 ? 'positive' : 'negative'}`}>
-                    {formatCurrency(profit)}
+                  <td className={`profit ${trade.sellPrice !== null ? (profit >= 0 ? 'positive' : 'negative') : 'unsold'}`}>
+                    {trade.sellPrice !== null ? formatCurrency(profit) : '—'}
                   </td>
                   <td>{trade.buyDate || '—'}</td>
                   <td>{trade.sellDate ?? '—'}</td>

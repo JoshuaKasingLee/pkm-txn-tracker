@@ -23,23 +23,25 @@ function Filters({ filters, onChange, sortKey, onSortChange }) {
           </select>
         </label>
         <label className="filter-field">
-          <span>Profit</span>
+          <span>Source</span>
           <select
-            value={filters.profit}
-            onChange={(event) => onChange({ ...filters, profit: event.target.value })}
+            value={filters.source}
+            onChange={(event) => onChange({ ...filters, source: event.target.value })}
           >
-            <option value="all">All</option>
-            <option value="profitable">Profit &gt; 0</option>
-            <option value="loss">Loss trades</option>
+            <option value="all">All sources</option>
+            <option value="retail">Retail only</option>
+            <option value="non-retail">Non-retail only</option>
           </select>
         </label>
         <label className="filter-field">
           <span>Sort by</span>
           <select value={sortKey} onChange={(event) => onSortChange(event.target.value)}>
+            <option value="none">None</option>
             <option value="profit">Profit</option>
             <option value="buyDate">Buy date</option>
             <option value="sellDate">Sell date</option>
             <option value="item">Item name</option>
+            <option value="buySource">Buy source</option>
           </select>
         </label>
       </div>

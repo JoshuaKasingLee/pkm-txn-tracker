@@ -277,6 +277,11 @@ td.profit.negative {
   font-weight: 700;
 }
 
+td.profit.unsold {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
 @media (max-width: 980px) {
   .summary-grid,
   .filters-row {
