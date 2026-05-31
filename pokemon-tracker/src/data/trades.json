@@ -338,5 +338,15 @@
     "sellDate": null,
     "buySource": "retail",
     "notes": "jbhifi"
+  },
+  {
+    "id": 35,
+    "item": "one4all gift cards",
+    "buyPrice": 0,
+    "sellPrice": 75,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "positive since 10% off gift card -> used to fund eb games purchase"
   }
 ]
