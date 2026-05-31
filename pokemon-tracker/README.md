@@ -39,4 +39,4 @@ In the repository's GitHub Pages settings, set the source to deploy from the `gh
 
 ## Security Note
 
-GitHub Pages sites are publicly accessible. Remove any sensitive files or credentials from the repository before publishing.
+GitHub Pages sites are publicly accessible. Remove any sensitive files or credentials from the repository before publishing.    
