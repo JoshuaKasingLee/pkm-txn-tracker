@@ -6,7 +6,8 @@ export const totalSpent = (trades) => trades.reduce((sum, trade) => sum + trade.
 
 export const totalSold = (trades) => trades.reduce((sum, trade) => sum + (trade.sellPrice ?? 0), 0)
 
-export const netCashFlow = (trades) => totalSold(trades) - totalSpent(trades)
+export const netCashFlow = (trades) =>
+  trades.reduce((sum, trade) => sum + (trade.sellPrice === null ? trade.buyPrice : 0), 0)
 
 export const formatCurrency = (value) =>
   new Intl.NumberFormat('en-US', {

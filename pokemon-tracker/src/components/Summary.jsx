@@ -16,9 +16,8 @@ function Summary({ metrics }) {
       value: metrics.totalSold,
     },
     {
-      label: 'Net Cash Flow',
+      label: 'Portfolio Size',
       value: metrics.netCashFlow,
-      status: metrics.netCashFlow >= 0 ? 'positive' : 'negative',
     },
   ]
 
