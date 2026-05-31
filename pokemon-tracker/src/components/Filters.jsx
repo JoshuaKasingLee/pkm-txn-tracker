@@ -1,4 +1,4 @@
-function Filters({ filters, onChange, sortKey, onSortChange }) {
+function Filters({ filters, onChange }) {
   return (
     <section className="filters-panel" aria-label="Filter trades">
       <div className="filters-row">
@@ -31,17 +31,6 @@ function Filters({ filters, onChange, sortKey, onSortChange }) {
             <option value="all">All sources</option>
             <option value="retail">Retail only</option>
             <option value="non-retail">Non-retail only</option>
-          </select>
-        </label>
-        <label className="filter-field">
-          <span>Sort by</span>
-          <select value={sortKey} onChange={(event) => onSortChange(event.target.value)}>
-            <option value="none">None</option>
-            <option value="profit">Profit</option>
-            <option value="buyDate">Buy date</option>
-            <option value="sellDate">Sell date</option>
-            <option value="item">Item name</option>
-            <option value="buySource">Buy source</option>
           </select>
         </label>
       </div>

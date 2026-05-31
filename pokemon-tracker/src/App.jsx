@@ -78,9 +78,15 @@ const sortTrades = (trades, sortConfig) => {
     } else if (sortConfig.key === 'buyDate') {
       aValue = a.buyDate
       bValue = b.buyDate
+    } else if (sortConfig.key === 'sellPrice') {
+      aValue = a.sellPrice ?? (sortConfig.direction === 'asc' ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY)
+      bValue = b.sellPrice ?? (sortConfig.direction === 'asc' ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY)
     } else if (sortConfig.key === 'sellDate') {
       aValue = a.sellDate ?? (sortConfig.direction === 'asc' ? '9999-12-31' : '0000-01-01')
       bValue = b.sellDate ?? (sortConfig.direction === 'asc' ? '9999-12-31' : '0000-01-01')
+    } else if (sortConfig.key === 'buyPrice') {
+      aValue = a.buyPrice
+      bValue = b.buyPrice
     } else if (sortConfig.key === 'item') {
       aValue = a.item.toLowerCase()
       bValue = b.item.toLowerCase()
@@ -150,12 +156,7 @@ function App() {
       </header>
 
       <Summary metrics={metrics} />
-      <Filters
-        filters={filters}
-        onChange={setFilters}
-        sortKey={sortConfig.key}
-        onSortChange={handleSortChange}
-      />
+      <Filters filters={filters} onChange={setFilters} />
       <TradesTable trades={visibleTrades} sortConfig={sortConfig} onSort={handleSortChange} />
     </div>
   )

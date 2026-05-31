@@ -19,9 +19,11 @@ function TradesTable({ trades, sortConfig, onSort }) {
               <th onClick={() => onSort('item')}>
                 Item name <span>{renderSortIndicator('item')}</span>
               </th>
-              <th>Buy price</th>
-              <th onClick={() => onSort('sellDate')}>
-                Sell price / date <span>{renderSortIndicator('sellDate')}</span>
+              <th onClick={() => onSort('buyPrice')}>
+                Buy price <span>{renderSortIndicator('buyPrice')}</span>
+              </th>
+              <th onClick={() => onSort('sellPrice')}>
+                Sell price <span>{renderSortIndicator('sellPrice')}</span>
               </th>
               <th onClick={() => onSort('profit')}>
                 Profit <span>{renderSortIndicator('profit')}</span>
@@ -29,7 +31,9 @@ function TradesTable({ trades, sortConfig, onSort }) {
               <th onClick={() => onSort('buyDate')}>
                 Buy date <span>{renderSortIndicator('buyDate')}</span>
               </th>
-              <th>Sell date</th>
+              <th onClick={() => onSort('sellDate')}>
+                Sell date <span>{renderSortIndicator('sellDate')}</span>
+              </th>
               <th onClick={() => onSort('buySource')}>
                 Buy source <span>{renderSortIndicator('buySource')}</span>
               </th>
