@@ -178,5 +178,165 @@
     "sellDate": null,
     "buySource": "marketplace",
     "notes": "Yu nagaba box traded up (valued at 480) then cash diff'd"
+  },
+  {
+    "id": 19,
+    "item": "pitch black ETB",
+    "buyPrice": 140,
+    "sellPrice": null,
+    "buyDate": "11/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "popculcha"
+  },
+  {
+    "id": 20,
+    "item": "pitch black ETB",
+    "buyPrice": 120,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "EB"
+  },
+  {
+    "id": 21,
+    "item": "pitch black booster bundle",
+    "buyPrice": 59,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "EB"
+  },
+  {
+    "id": 22,
+    "item": "greninja ex collection",
+    "buyPrice": 99,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "EB"
+  },
+  {
+    "id": 23,
+    "item": "pitch black booster bundle",
+    "buyPrice": 59,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "EB"
+  },
+  {
+    "id": 24,
+    "item": "pitch black display box",
+    "buyPrice": 358.2,
+    "sellPrice": null,
+    "buyDate": "4/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "EB"
+  },
+  {
+    "id": 25,
+    "item": "first partner illustration collection series 3",
+    "buyPrice": 40,
+    "sellPrice": null,
+    "buyDate": "29/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "EB"
+  },
+  {
+    "id": 26,
+    "item": "pitch black booster bundle",
+    "buyPrice": 51.60,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "id": 27,
+    "item": "pitch black booster bundle",
+    "buyPrice": 51.60,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "id": 28,
+    "item": "pitch black booster bundle",
+    "buyPrice": 51.60,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "id": 29,
+    "item": "pitch black booster bundle",
+    "buyPrice": 51.60,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "id": 30,
+    "item": "pitch black booster bundle",
+    "buyPrice": 51.60,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "id": 31,
+    "item": "pitch black ETB",
+    "buyPrice": 106.74,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "id": 32,
+    "item": "greninja ex collection",
+    "buyPrice": 86.74,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "id": 33,
+    "item": "greninja ex collection",
+    "buyPrice": 86.74,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "id": 34,
+    "item": "pitch black display box",
+    "buyPrice": 312.74,
+    "sellPrice": null,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "jbhifi"
   }
 ]
