@@ -348,15 +348,5 @@
     "sellDate": null,
     "buySource": "retail",
     "notes": "positive since 10% off gift card -> used to fund eb games purchase"
-  },
-    {
-    "id": 36,
-    "item": "bobcar go go",
-    "buyPrice": 0,
-    "sellPrice": 0,
-    "buyDate": "1/5/26",
-    "sellDate": null,
-    "buySource": "retassil",
-    "notes": "positive since 10% off gift card -> used to fund eb games purchase"
   }
 ]
