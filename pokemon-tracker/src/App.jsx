@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import './App.css'
 import tradesData from './data/trades.json'
 import {
@@ -104,6 +104,8 @@ const sortTrades = (trades, sortConfig) => {
 function App() {
   const [filters, setFilters] = useState(initialFilters)
   const [sortConfig, setSortConfig] = useState(DEFAULT_SORT)
+  const [page, setPage] = useState(1)
+  const perPage = 20
 
   const activeTrades = useMemo(
     () => tradesData.filter(isActiveTrade),
@@ -114,6 +116,21 @@ function App() {
     () => sortTrades(filterTrades(activeTrades, filters), sortConfig),
     [activeTrades, filters, sortConfig],
   )
+
+  useEffect(() => {
+    // reset to first page when filters or sort change
+    setPage(1)
+  }, [filters, sortConfig])
+
+  useEffect(() => {
+    const totalPages = Math.max(1, Math.ceil(visibleTrades.length / perPage))
+    if (page > totalPages) setPage(totalPages)
+  }, [visibleTrades, page])
+
+  const paginatedTrades = useMemo(() => {
+    const start = (page - 1) * perPage
+    return visibleTrades.slice(start, start + perPage)
+  }, [visibleTrades, page])
 
   const metrics = useMemo(
     () => ({
@@ -146,18 +163,21 @@ function App() {
       <header className="app-top">
         <div>
           <p className="eyebrow">Pokémon Trade Tracker</p>
-          <h1>Track buy & sell performance</h1>
-          <p className="hero-copy">
-            A lightweight static dashboard for monitoring item spends, sales,
-            and profit at a glance. Edit your trades manually in
-            <code>src/data/trades.json</code>.
-          </p>
+          <h1>Josh's Pokémon Portfolio</h1>
         </div>
       </header>
 
       <Summary metrics={metrics} />
       <Filters filters={filters} onChange={setFilters} />
-      <TradesTable trades={visibleTrades} sortConfig={sortConfig} onSort={handleSortChange} />
+      <TradesTable
+        trades={paginatedTrades}
+        sortConfig={sortConfig}
+        onSort={handleSortChange}
+        page={page}
+        perPage={perPage}
+        totalCount={visibleTrades.length}
+        onPageChange={setPage}
+      />
     </div>
   )
 }

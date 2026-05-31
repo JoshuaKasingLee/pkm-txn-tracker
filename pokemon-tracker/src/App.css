@@ -258,6 +258,23 @@ th:hover {
   color: var(--accent-dark);
 }
 
+.table-pagination {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.page-info {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
 tbody tr {
   transition: transform 0.2s ease, background-color 0.2s ease;
 }

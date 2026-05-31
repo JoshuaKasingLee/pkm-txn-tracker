@@ -1,6 +1,6 @@
 import { calculateProfit, formatCurrency } from '../utils/calculations'
 
-function TradesTable({ trades, sortConfig, onSort }) {
+function TradesTable({ trades, sortConfig, onSort, page = 1, perPage = 10, totalCount = 0, onPageChange = () => {} }) {
   const renderSortIndicator = (key) => {
     if (sortConfig.key !== key) return '↕'
     return sortConfig.direction === 'desc' ? '↓' : '↑'
@@ -61,6 +61,27 @@ function TradesTable({ trades, sortConfig, onSort }) {
           </tbody>
         </table>
       </div>
+        <div className="table-pagination">
+          <div className="pagination-controls">
+            <button
+              className="secondary-button"
+              onClick={() => onPageChange(Math.max(1, page - 1))}
+              disabled={page <= 1}
+            >
+              Prev
+            </button>
+            <div className="page-info">
+              Page {page} of {Math.max(1, Math.ceil(totalCount / perPage))}
+            </div>
+            <button
+              className="secondary-button"
+              onClick={() => onPageChange(Math.min(Math.max(1, Math.ceil(totalCount / perPage)), page + 1))}
+              disabled={page >= Math.max(1, Math.ceil(totalCount / perPage))}
+            >
+              Next
+            </button>
+          </div>
+        </div>
     </section>
   )
 }
