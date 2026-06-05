@@ -143,9 +143,9 @@
     "id": 15,
     "item": "Moltres Articuno Zapdos SM210 PSA 9",
     "buyPrice": 225,
-    "sellPrice": null,
+    "sellPrice": 280,
     "buyDate": "1/4/26",
-    "sellDate": null,
+    "sellDate": "5/6/26",
     "buySource": "marketplace",
     "notes": ""
   },
@@ -203,16 +203,6 @@
     "id": 21,
     "item": "pitch black booster bundle",
     "buyPrice": 59,
-    "sellPrice": null,
-    "buyDate": "1/5/26",
-    "sellDate": null,
-    "buySource": "retail",
-    "notes": "EB"
-  },
-  {
-    "id": 22,
-    "item": "greninja ex collection",
-    "buyPrice": 99,
     "sellPrice": null,
     "buyDate": "1/5/26",
     "sellDate": null,
@@ -302,27 +292,7 @@
   {
     "id": 31,
     "item": "pitch black ETB",
-    "buyPrice": 106.74,
-    "sellPrice": null,
-    "buyDate": "1/5/26",
-    "sellDate": null,
-    "buySource": "retail",
-    "notes": "jbhifi"
-  },
-  {
-    "id": 32,
-    "item": "greninja ex collection",
-    "buyPrice": 86.74,
-    "sellPrice": null,
-    "buyDate": "1/5/26",
-    "sellDate": null,
-    "buySource": "retail",
-    "notes": "jbhifi"
-  },
-  {
-    "id": 33,
-    "item": "greninja ex collection",
-    "buyPrice": 86.74,
+    "buyPrice": 108.99,
     "sellPrice": null,
     "buyDate": "1/5/26",
     "sellDate": null,
@@ -332,7 +302,7 @@
   {
     "id": 34,
     "item": "pitch black display box",
-    "buyPrice": 312.74,
+    "buyPrice": 314.99,
     "sellPrice": null,
     "buyDate": "1/5/26",
     "sellDate": null,
@@ -348,5 +318,15 @@
     "sellDate": null,
     "buySource": "retail",
     "notes": "positive since 10% off gift card -> used to fund eb games purchase"
+  },
+  {
+    "id": 36,
+    "item": "pitch black ETB",
+    "buyPrice": 100,
+    "sellPrice": null,
+    "buyDate": "4/6/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "kmart"
   }
 ]

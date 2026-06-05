@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect } from 'react'
+import { useMemo, useState } from 'react'
 import './App.css'
 import tradesData from './data/trades.json'
 import {
@@ -14,6 +14,47 @@ import TradesTable from './components/TradesTable.jsx'
 
 const DEFAULT_SORT = { key: 'none', direction: 'desc' }
 const initialFilters = { search: '', status: 'all', source: 'all' }
+
+const toFullYear = (year) => (year < 100 ? 2000 + year : year)
+
+const toDateTimestamp = (year, month, day) => {
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null
+
+  const timestamp = Date.UTC(year, month - 1, day)
+  const parsed = new Date(timestamp)
+  if (
+    parsed.getUTCFullYear() !== year ||
+    parsed.getUTCMonth() !== month - 1 ||
+    parsed.getUTCDate() !== day
+  ) {
+    return null
+  }
+
+  return timestamp
+}
+
+const parseTradeDate = (date) => {
+  if (!date) return null
+
+  if (/^\d{4}-\d{1,2}-\d{1,2}$/.test(date)) {
+    const [year, month, day] = date.split('-').map(Number)
+    return toDateTimestamp(year, month, day)
+  }
+
+  if (/^\d{1,2}\/\d{1,2}\/\d{2,4}$/.test(date)) {
+    const [day, month, year] = date.split('/').map(Number)
+    return toDateTimestamp(toFullYear(year), month, day)
+  }
+
+  return null
+}
+
+const getDateSortValue = (date, direction) => {
+  const parsedDate = parseTradeDate(date)
+  if (parsedDate !== null) return parsedDate
+
+  return direction === 'asc' ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY
+}
 
 const isRetail = (buySource) => {
   return buySource.toLowerCase().includes('retail')
@@ -76,14 +117,14 @@ const sortTrades = (trades, sortConfig) => {
       aValue = calculateProfit(a)
       bValue = calculateProfit(b)
     } else if (sortConfig.key === 'buyDate') {
-      aValue = a.buyDate
-      bValue = b.buyDate
+      aValue = getDateSortValue(a.buyDate, sortConfig.direction)
+      bValue = getDateSortValue(b.buyDate, sortConfig.direction)
     } else if (sortConfig.key === 'sellPrice') {
       aValue = a.sellPrice ?? (sortConfig.direction === 'asc' ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY)
       bValue = b.sellPrice ?? (sortConfig.direction === 'asc' ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY)
     } else if (sortConfig.key === 'sellDate') {
-      aValue = a.sellDate ?? (sortConfig.direction === 'asc' ? '9999-12-31' : '0000-01-01')
-      bValue = b.sellDate ?? (sortConfig.direction === 'asc' ? '9999-12-31' : '0000-01-01')
+      aValue = getDateSortValue(a.sellDate, sortConfig.direction)
+      bValue = getDateSortValue(b.sellDate, sortConfig.direction)
     } else if (sortConfig.key === 'buyPrice') {
       aValue = a.buyPrice
       bValue = b.buyPrice
@@ -117,20 +158,13 @@ function App() {
     [activeTrades, filters, sortConfig],
   )
 
-  useEffect(() => {
-    // reset to first page when filters or sort change
-    setPage(1)
-  }, [filters, sortConfig])
-
-  useEffect(() => {
-    const totalPages = Math.max(1, Math.ceil(visibleTrades.length / perPage))
-    if (page > totalPages) setPage(totalPages)
-  }, [visibleTrades, page])
+  const totalPages = Math.max(1, Math.ceil(visibleTrades.length / perPage))
+  const currentPage = Math.min(page, totalPages)
 
   const paginatedTrades = useMemo(() => {
-    const start = (page - 1) * perPage
+    const start = (currentPage - 1) * perPage
     return visibleTrades.slice(start, start + perPage)
-  }, [visibleTrades, page])
+  }, [visibleTrades, currentPage])
 
   const metrics = useMemo(
     () => ({
@@ -142,7 +176,13 @@ function App() {
     [visibleTrades],
   )
 
+  const handleFiltersChange = (nextFilters) => {
+    setFilters(nextFilters)
+    setPage(1)
+  }
+
   const handleSortChange = (key) => {
+    setPage(1)
     setSortConfig((current) => {
       if (current.key === key) {
         return {
@@ -158,6 +198,10 @@ function App() {
     })
   }
 
+  const handlePageChange = (nextPage) => {
+    setPage(Math.min(Math.max(1, nextPage), totalPages))
+  }
+
   return (
     <div className="app-shell">
       <header className="app-top">
@@ -168,15 +212,15 @@ function App() {
       </header>
 
       <Summary metrics={metrics} />
-      <Filters filters={filters} onChange={setFilters} />
+      <Filters filters={filters} onChange={handleFiltersChange} />
       <TradesTable
         trades={paginatedTrades}
         sortConfig={sortConfig}
         onSort={handleSortChange}
-        page={page}
+        page={currentPage}
         perPage={perPage}
         totalCount={visibleTrades.length}
-        onPageChange={setPage}
+        onPageChange={handlePageChange}
       />
     </div>
   )
