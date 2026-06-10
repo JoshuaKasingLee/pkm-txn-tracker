@@ -328,5 +328,45 @@
     "sellDate": null,
     "buySource": "retail",
     "notes": "kmart"
+  },
+  {
+    "id": 37,
+    "item": "Paldea evolved ETB",
+    "buyPrice": 285,
+    "sellPrice": 350,
+    "buyDate": "7/6/26",
+    "sellDate": "8/6/26",
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "id": 38,
+    "item": "Yu Nagaba Sylveon PSA 10",
+    "buyPrice": 292.5,
+    "sellPrice": null,
+    "buyDate": "7/6/26",
+    "sellDate": null,
+    "buySource": "cozy collectables msged insta ebay",
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "item": "Yu Nagaba Vaporeon PSA 10",
+    "buyPrice": 215,
+    "sellPrice": null,
+    "buyDate": "9/6/26",
+    "sellDate": null,
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "id": 41,
+    "item": "Vaporeon 134/165 Sv2a Reverse Holo PSA 10",
+    "buyPrice": 99.5,
+    "sellPrice": null,
+    "buyDate": "9/6/26",
+    "sellDate": null,
+    "buySource": "marketplace",
+    "notes": ""
   }
 ]
