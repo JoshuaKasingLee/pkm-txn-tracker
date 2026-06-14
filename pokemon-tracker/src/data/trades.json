@@ -133,9 +133,9 @@
     "id": 14,
     "item": "Misty's Psyduck",
     "buyPrice": 80,
-    "sellPrice": null,
+    "sellPrice": 120,
     "buyDate": "1/4/26",
-    "sellDate": null,
+    "sellDate": "11/6/26",
     "buySource": "marketplace",
     "notes": ""
   },
