@@ -315,7 +315,7 @@
     "buyPrice": 0,
     "sellPrice": 75,
     "buyDate": "1/5/26",
-    "sellDate": null,
+    "sellDate": "1/5/26",
     "buySource": "retail",
     "notes": "positive since 10% off gift card -> used to fund eb games purchase"
   },
@@ -385,7 +385,7 @@
     "buyPrice": 90,
     "sellPrice": 120,
     "buyDate": "9/6/26",
-    "sellDate": null,
+    "sellDate": "12/6/26",
     "buySource": "marketplace",
     "notes": ""
   },
