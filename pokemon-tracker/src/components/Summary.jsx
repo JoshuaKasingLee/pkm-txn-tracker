@@ -8,14 +8,6 @@ function Summary({ metrics }) {
       status: metrics.totalProfit >= 0 ? 'positive' : 'negative',
     },
     {
-      label: 'Total Spent',
-      value: metrics.totalSpent,
-    },
-    {
-      label: 'Total Sold',
-      value: metrics.totalSold,
-    },
-    {
       label: 'Portfolio Size',
       value: metrics.netCashFlow,
     },

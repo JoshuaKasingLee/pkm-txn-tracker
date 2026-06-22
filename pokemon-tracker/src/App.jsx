@@ -5,8 +5,6 @@ import {
   calculateProfit,
   netCashFlow,
   totalProfit,
-  totalSold,
-  totalSpent,
 } from './utils/calculations.js'
 import Filters from './components/Filters.jsx'
 import Summary from './components/Summary.jsx'
@@ -169,8 +167,6 @@ function App() {
   const metrics = useMemo(
     () => ({
       totalProfit: totalProfit(visibleTrades),
-      totalSpent: totalSpent(visibleTrades),
-      totalSold: totalSold(visibleTrades),
       netCashFlow: netCashFlow(visibleTrades),
     }),
     [visibleTrades],
