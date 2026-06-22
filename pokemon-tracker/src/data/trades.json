@@ -368,5 +368,65 @@
     "sellDate": "10/6/26",
     "buySource": "marketplace",
     "notes": ""
+  },
+  {
+    "id": 42,
+    "item": "Aerodactl Holo 1st Edition PSA 7",
+    "buyPrice": 65,
+    "sellPrice": 117.5,
+    "buyDate": "9/6/26",
+    "sellDate": "14/6/26",
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "id": 43,
+    "item": "Charmander 044 Promo",
+    "buyPrice": 90,
+    "sellPrice": 120,
+    "buyDate": "9/6/26",
+    "sellDate": null,
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "id": 44,
+    "item": "Snorlax Eevee 066/095 PSA 10",
+    "buyPrice": 170,
+    "sellPrice": null,
+    "buyDate": "9/6/26",
+    "sellDate": null,
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "id": 45,
+    "item": "Mega Gengar 230/193 PSA 10",
+    "buyPrice": 200,
+    "sellPrice": null,
+    "buyDate": "9/6/26",
+    "sellDate": null,
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "id": 46,
+    "item": "Destined Rivals Booster Bundle",
+    "buyPrice": 65,
+    "sellPrice": null,
+    "buyDate": "9/6/26",
+    "sellDate": null,
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "id": 47,
+    "item": "Japanese 151 Booster Box",
+    "buyPrice": 357.5,
+    "sellPrice": null,
+    "buyDate": "9/6/26",
+    "sellDate": null,
+    "buySource": "fb auction",
+    "notes": ""
   }
 ]
