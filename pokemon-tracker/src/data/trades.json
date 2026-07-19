@@ -153,11 +153,11 @@
     "id": 16,
     "item": "Blastoise 200/165",
     "buyPrice": 223,
-    "sellPrice": null,
+    "sellPrice": 223,
     "buyDate": "1/4/26",
-    "sellDate": null,
+    "sellDate": "19/6/26",
     "buySource": "ebay",
-    "notes": ""
+    "notes": "traded away for johto first partner set"
   },
   {
     "id": 17,
@@ -232,12 +232,12 @@
   {
     "id": 25,
     "item": "first partner illustration collection series 3",
-    "buyPrice": 40,
+    "buyPrice": 36,
     "sellPrice": null,
     "buyDate": "29/5/26",
     "sellDate": null,
     "buySource": "retail",
-    "notes": "EB"
+    "notes": "EB -> might need to fix gift card purchase if i end up paying"
   },
   {
     "id": 26,
@@ -413,7 +413,7 @@
     "id": 46,
     "item": "Destined Rivals Booster Bundle",
     "buyPrice": 65,
-    "sellPrice": null,
+    "sellPrice": 125,
     "buyDate": "9/6/26",
     "sellDate": null,
     "buySource": "marketplace",
@@ -428,5 +428,55 @@
     "sellDate": null,
     "buySource": "fb auction",
     "notes": ""
+  },
+  {
+    "id": 48,
+    "item": "Yu Nagaba Leafeon PSA 10",
+    "buyPrice": 230,
+    "sellPrice": null,
+    "buyDate": "19/7/26",
+    "sellDate": null,
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "id": 49,
+    "item": "Random free St George foreign txn refund",
+    "buyPrice": 15,
+    "sellPrice": null,
+    "buyDate": "19/7/26",
+    "sellDate": null,
+    "buySource": "",
+    "notes": ""
+  },
+  {
+    "id": 50,
+    "item": "EB membership",
+    "buyPrice": 0,
+    "sellPrice": -50,
+    "buyDate": "1/5/26",
+    "sellDate": null,
+    "buySource": "",
+    "notes": ""
+  },
+  {
+    "id": 51,
+    "item": "first partner illustration collection series 3",
+    "buyPrice": 56,
+    "sellPrice": null,
+    "buyDate": "19/7/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "lion's den"
+  },
+  {
+    "id": 52,
+    "item": "Johto Set First Partner Series 2",
+    "buyPrice": 83,
+    "sellPrice": null,
+    "buyDate": "19/6/26",
+    "sellDate": null,
+    "buySource": "marketplace",
+    "notes": "traded from blastoise 200/165"
   }
 ]
