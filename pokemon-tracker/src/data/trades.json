@@ -432,10 +432,10 @@
   {
     "id": 49,
     "item": "Random free St George foreign txn refund",
-    "buyPrice": 15,
-    "sellPrice": null,
+    "buyPrice": 0,
+    "sellPrice": 15,
     "buyDate": "19/7/26",
-    "sellDate": null,
+    "sellDate": "19/7/26",
     "buySource": "",
     "notes": ""
   },
