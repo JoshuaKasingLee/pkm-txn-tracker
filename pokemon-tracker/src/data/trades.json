@@ -478,5 +478,15 @@
     "sellDate": "22/7/26",
     "buySource": "retail",
     "notes": "EB games"
+  },
+  {
+    "id": 54,
+    "item": "Kanto Set First Partner Series 1",
+    "buyPrice": 125.4,
+    "sellPrice": null,
+    "buyDate": "17/7/26",
+    "sellDate": null,
+    "buySource": "CR",
+    "notes": "CR chat"
   }
 ]
