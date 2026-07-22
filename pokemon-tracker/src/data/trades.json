@@ -468,5 +468,15 @@
     "sellDate": null,
     "buySource": "marketplace",
     "notes": "traded from blastoise 200/165"
+  },
+  {
+    "id": 53,
+    "item": "Zarude EB Promo",
+    "buyPrice": 0,
+    "sellPrice": 20,
+    "buyDate": "17/7/26",
+    "sellDate": "22/7/26",
+    "buySource": "retail",
+    "notes": "sexton retail"
   }
 ]
