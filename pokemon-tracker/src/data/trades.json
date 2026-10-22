@@ -518,8 +518,8 @@
     "sellPrice": 240,
     "buyDate": "19/10/26",
     "sellDate": "19/10/26",
-    "buySource": "kmart",
-    "notes": ""
+    "buySource": "retail",
+    "notes": "kmart"
   },
   {
     "item": "30th Anniversary ETB",
@@ -527,8 +527,8 @@
     "sellPrice": 220,
     "buyDate": "19/10/26",
     "sellDate": "19/10/26",
-    "buySource": "kmart",
-    "notes": ""
+    "buySource": "retail",
+    "notes": "kmart"
   },
   {
     "item": "30th Anniversary Booster Bundle",
@@ -536,8 +536,8 @@
     "sellPrice": 120,
     "buyDate": "19/10/26",
     "sellDate": "19/10/26",
-    "buySource": "kmart",
-    "notes": ""
+    "buySource": "retail",
+    "notes": "kmart"
   },
   {
     "item": "30th Anniversary Booster Bundle",
@@ -545,8 +545,8 @@
     "sellPrice": 120,
     "buyDate": "19/10/26",
     "sellDate": "19/10/26",
-    "buySource": "kmart",
-    "notes": ""
+    "buySource": "retail",
+    "notes": "kmart"
   },
   {
     "item": "30th Anniversary Booster Bundle",
@@ -554,8 +554,8 @@
     "sellPrice": 120,
     "buyDate": "19/10/26",
     "sellDate": "19/10/26",
-    "buySource": "kmart",
-    "notes": ""
+    "buySource": "retail",
+    "notes": "kmart"
   },
   {
     "item": "30th Anniversary Mew/Mewtwo Figure Collection",
@@ -655,5 +655,131 @@
     "sellDate": "22/10/26",
     "buySource": "retail",
     "notes": "jbhifi"
+  },
+  {
+    "item": "Delta Reign Booster Bundle",
+    "buyPrice": 54,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "Delta Reign ETB",
+    "buyPrice": 108,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "Delta Reign Booster Box",
+    "buyPrice": 296.32,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "30th Anniversary ETB",
+    "buyPrice": 110,
+    "sellPrice": 220,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary Poster",
+    "buyPrice": 36.1,
+    "sellPrice": 80,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "30th Anniversary Ditto Premium Collection",
+    "buyPrice": null,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+  "item": "30th Anniversary Booster Bundle",
+  "buyPrice": 54,
+  "sellPrice": 120,
+  "buyDate": "22/10/26",
+  "sellDate": "22/10/26",
+  "buySource": "retail",
+  "notes": "eb"
+  },
+  {
+    "item": "30th Anniversary Ditto Premium Collection",
+    "buyPrice": null,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "30th Anniversary Binder",
+    "buyPrice": 73.1,
+    "sellPrice": 120,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "30th Anniversary EX Collection",
+    "buyPrice": 50.5,
+    "sellPrice": 80,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "30th Anniversary ETB",
+    "buyPrice": 110,
+    "sellPrice": 220,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "AH Focussed Fighters Collection",
+    "buyPrice": 181.1,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "30th Anniversary EB Pikachu 2026 Promo Card",
+    "buyPrice": 0,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "eb"
+  },
+  {
+    "item": "30th Anniversary Mewtwo Promo Card",
+    "buyPrice": 0,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "eb"
   }
 ]
