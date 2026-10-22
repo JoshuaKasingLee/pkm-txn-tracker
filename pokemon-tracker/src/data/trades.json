@@ -520,5 +520,140 @@
     "sellDate": "19/10/26",
     "buySource": "kmart",
     "notes": ""
+  },
+  {
+    "item": "30th Anniversary ETB",
+    "buyPrice": 100,
+    "sellPrice": 220,
+    "buyDate": "19/10/26",
+    "sellDate": "19/10/26",
+    "buySource": "kmart",
+    "notes": ""
+  },
+  {
+    "item": "30th Anniversary Booster Bundle",
+    "buyPrice": 54,
+    "sellPrice": 120,
+    "buyDate": "19/10/26",
+    "sellDate": "19/10/26",
+    "buySource": "kmart",
+    "notes": ""
+  },
+  {
+    "item": "30th Anniversary Booster Bundle",
+    "buyPrice": 54,
+    "sellPrice": 120,
+    "buyDate": "19/10/26",
+    "sellDate": "19/10/26",
+    "buySource": "kmart",
+    "notes": ""
+  },
+  {
+    "item": "30th Anniversary Booster Bundle",
+    "buyPrice": 54,
+    "sellPrice": 120,
+    "buyDate": "19/10/26",
+    "sellDate": "19/10/26",
+    "buySource": "kmart",
+    "notes": ""
+  },
+  {
+    "item": "30th Anniversary Mew/Mewtwo Figure Collection",
+    "buyPrice": 68.75,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary Binder",
+    "buyPrice": 74.48,
+    "sellPrice": 120,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary EX Collection",
+    "buyPrice": 51.57,
+    "sellPrice": 110,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary Ditto Premium Collection",
+    "buyPrice": 91.67,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary Booster Bundle",
+    "buyPrice": 61.88,
+    "sellPrice": 120,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary ETB",
+    "buyPrice": 114.59,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary Poster",
+    "buyPrice": 36.06,
+    "sellPrice": 80,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary 5 Booster Tin",
+    "buyPrice": 64.92,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "Delta Reign Booster Bundle",
+    "buyPrice": 54.75,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "Delta Reign Booster Bundle",
+    "buyPrice": 54.75,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
+  },
+  {
+    "item": "Delta Reign ETB",
+    "buyPrice": 109.49,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": "22/10/26",
+    "buySource": "retail",
+    "notes": "jbhifi"
   }
 ]
