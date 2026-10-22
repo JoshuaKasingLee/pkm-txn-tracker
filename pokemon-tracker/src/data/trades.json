@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "item": "AH bundle",
     "buyPrice": 100,
     "sellPrice": null,
@@ -10,7 +9,6 @@
     "notes": "popculcha"
   },
   {
-    "id": 2,
     "item": "AH bundle",
     "buyPrice": 100,
     "sellPrice": null,
@@ -20,7 +18,6 @@
     "notes": "popculcha"
   },
   {
-    "id": 3,
     "item": "AH bundle",
     "buyPrice": 100,
     "sellPrice": null,
@@ -30,7 +27,6 @@
     "notes": "popculcha"
   },
   {
-    "id": 4,
     "item": "AH bundle",
     "buyPrice": 100,
     "sellPrice": null,
@@ -40,7 +36,6 @@
     "notes": "popculcha"
   },
   {
-    "id": 5,
     "item": "Yu Nagaba Pikachu PSA 10",
     "buyPrice": 550,
     "sellPrice": null,
@@ -50,7 +45,6 @@
     "notes": ""
   },
   {
-    "id": 6,
     "item": "Korean Ditto Metamon PSA 10",
     "buyPrice": 560,
     "sellPrice": 650,
@@ -60,7 +54,6 @@
     "notes": ""
   },
   {
-    "id": 7,
     "item": "Korean Ditto Metamon PSA 10",
     "buyPrice": 500,
     "sellPrice": null,
@@ -70,7 +63,6 @@
     "notes": ""
   },
   {
-    "id": 8,
     "item": "Yu Nagaba Umbreon PSA 10",
     "buyPrice": 380,
     "sellPrice": null,
@@ -80,7 +72,6 @@
     "notes": ""
   },
   {
-    "id": 9,
     "item": "Yu Nagaba Espeon PSA 10",
     "buyPrice": 200,
     "sellPrice": null,
@@ -90,7 +81,6 @@
     "notes": ""
   },
   {
-    "id": 10,
     "item": "Yu Nagaba Umbreon PSA 10",
     "buyPrice": 420,
     "sellPrice": null,
@@ -100,7 +90,6 @@
     "notes": ""
   },
   {
-    "id": 11,
     "item": "Yu Nagaba Special Box",
     "buyPrice": 250,
     "sellPrice": 480,
@@ -110,7 +99,6 @@
     "notes": "traded up for charizard 151"
   },
   {
-    "id": 12,
     "item": "Yu Nagaba Jolteon PSA 10",
     "buyPrice": 185,
     "sellPrice": null,
@@ -120,7 +108,6 @@
     "notes": ""
   },
   {
-    "id": 13,
     "item": "Yu Nagaba Pikachu SEALED",
     "buyPrice": 130,
     "sellPrice": null,
@@ -130,7 +117,6 @@
     "notes": ""
   },
   {
-    "id": 14,
     "item": "Misty's Psyduck",
     "buyPrice": 80,
     "sellPrice": 120,
@@ -140,7 +126,6 @@
     "notes": ""
   },
   {
-    "id": 15,
     "item": "Moltres Articuno Zapdos SM210 PSA 9",
     "buyPrice": 225,
     "sellPrice": 280,
@@ -150,7 +135,6 @@
     "notes": ""
   },
   {
-    "id": 16,
     "item": "Blastoise 200/165",
     "buyPrice": 223,
     "sellPrice": 223,
@@ -160,7 +144,6 @@
     "notes": "traded away for johto first partner set"
   },
   {
-    "id": 17,
     "item": "Gengar 230/193",
     "buyPrice": 0,
     "sellPrice": null,
@@ -170,7 +153,6 @@
     "notes": "nice guy jan gave it for free"
   },
   {
-    "id": 18,
     "item": "charizard 201/165 PSA 10",
     "buyPrice": 1300,
     "sellPrice": null,
@@ -180,7 +162,6 @@
     "notes": "Yu nagaba box traded up (valued at 480) then cash diff'd"
   },
   {
-    "id": 19,
     "item": "pitch black ETB",
     "buyPrice": 140,
     "sellPrice": null,
@@ -190,7 +171,6 @@
     "notes": "popculcha"
   },
   {
-    "id": 20,
     "item": "pitch black ETB",
     "buyPrice": 110,
     "sellPrice": 130,
@@ -200,7 +180,6 @@
     "notes": "EB"
   },
   {
-    "id": 21,
     "item": "pitch black booster bundle",
     "buyPrice": 54,
     "sellPrice": 70,
@@ -210,7 +189,6 @@
     "notes": "EB"
   },
   {
-    "id": 23,
     "item": "pitch black booster bundle",
     "buyPrice": 54,
     "sellPrice": 70,
@@ -220,7 +198,6 @@
     "notes": "EB"
   },
   {
-    "id": 24,
     "item": "pitch black display box",
     "buyPrice": 295.52,
     "sellPrice": 330,
@@ -230,17 +207,15 @@
     "notes": "EB"
   },
   {
-    "id": 25,
     "item": "first partner illustration collection series 3",
     "buyPrice": 36,
-    "sellPrice": null,
+    "sellPrice": 70,
     "buyDate": "29/5/26",
-    "sellDate": null,
+    "sellDate": "29/5/26",
     "buySource": "retail",
     "notes": "EB -> might need to fix gift card purchase if i end up paying"
   },
   {
-    "id": 26,
     "item": "pitch black booster bundle",
     "buyPrice": 51.6,
     "sellPrice": 75,
@@ -250,7 +225,6 @@
     "notes": "jbhifi"
   },
   {
-    "id": 27,
     "item": "pitch black booster bundle",
     "buyPrice": 51.6,
     "sellPrice": 75,
@@ -260,37 +234,33 @@
     "notes": "jbhifi"
   },
   {
-    "id": 28,
     "item": "pitch black booster bundle",
     "buyPrice": 51.6,
-    "sellPrice": null,
+    "sellPrice": 65,
     "buyDate": "1/5/26",
-    "sellDate": null,
+    "sellDate": "1/5/26",
     "buySource": "retail",
     "notes": "jbhifi"
   },
   {
-    "id": 29,
     "item": "pitch black booster bundle",
     "buyPrice": 51.6,
-    "sellPrice": null,
+    "sellPrice": 60,
     "buyDate": "1/5/26",
-    "sellDate": null,
+    "sellDate": "1/5/26",
     "buySource": "retail",
     "notes": "jbhifi"
   },
   {
-    "id": 30,
     "item": "pitch black booster bundle",
     "buyPrice": 51.6,
-    "sellPrice": null,
+    "sellPrice": 60,
     "buyDate": "1/5/26",
-    "sellDate": null,
+    "sellDate": "1/5/26",
     "buySource": "retail",
     "notes": "jbhifi"
   },
   {
-    "id": 31,
     "item": "pitch black ETB",
     "buyPrice": 108.99,
     "sellPrice": 135,
@@ -300,7 +270,6 @@
     "notes": "jbhifi"
   },
   {
-    "id": 34,
     "item": "pitch black display box",
     "buyPrice": 314.99,
     "sellPrice": 330,
@@ -310,17 +279,15 @@
     "notes": "jbhifi"
   },
   {
-    "id": 36,
     "item": "pitch black ETB",
     "buyPrice": 100,
-    "sellPrice": null,
+    "sellPrice": 115,
     "buyDate": "4/6/26",
-    "sellDate": null,
+    "sellDate": "4/6/26",
     "buySource": "retail",
     "notes": "kmart"
   },
   {
-    "id": 37,
     "item": "Paldea evolved ETB",
     "buyPrice": 285,
     "sellPrice": 350,
@@ -330,7 +297,6 @@
     "notes": ""
   },
   {
-    "id": 38,
     "item": "Yu Nagaba Sylveon PSA 10",
     "buyPrice": 292.5,
     "sellPrice": null,
@@ -340,7 +306,6 @@
     "notes": ""
   },
   {
-    "id": 40,
     "item": "Yu Nagaba Vaporeon PSA 10",
     "buyPrice": 215,
     "sellPrice": null,
@@ -350,7 +315,6 @@
     "notes": ""
   },
   {
-    "id": 41,
     "item": "Vaporeon 134/165 Sv2a Reverse Holo PSA 10",
     "buyPrice": 99.5,
     "sellPrice": 119.8,
@@ -360,7 +324,6 @@
     "notes": ""
   },
   {
-    "id": 42,
     "item": "Aerodactl Holo 1st Edition PSA 7",
     "buyPrice": 65,
     "sellPrice": 117.5,
@@ -370,7 +333,6 @@
     "notes": ""
   },
   {
-    "id": 43,
     "item": "Charmander 044 Promo",
     "buyPrice": 90,
     "sellPrice": 120,
@@ -380,7 +342,6 @@
     "notes": ""
   },
   {
-    "id": 44,
     "item": "Snorlax Eevee 066/095 PSA 10",
     "buyPrice": 170,
     "sellPrice": null,
@@ -390,7 +351,6 @@
     "notes": ""
   },
   {
-    "id": 45,
     "item": "Mega Gengar 230/193 PSA 10",
     "buyPrice": 200,
     "sellPrice": null,
@@ -400,7 +360,6 @@
     "notes": ""
   },
   {
-    "id": 46,
     "item": "Destined Rivals Booster Bundle",
     "buyPrice": 65,
     "sellPrice": 125,
@@ -410,7 +369,6 @@
     "notes": ""
   },
   {
-    "id": 47,
     "item": "Japanese 151 Booster Box",
     "buyPrice": 357.5,
     "sellPrice": null,
@@ -420,7 +378,6 @@
     "notes": ""
   },
   {
-    "id": 48,
     "item": "Yu Nagaba Leafeon PSA 10",
     "buyPrice": 230,
     "sellPrice": null,
@@ -430,7 +387,6 @@
     "notes": ""
   },
   {
-    "id": 49,
     "item": "Random free St George foreign txn refund",
     "buyPrice": 0,
     "sellPrice": 15,
@@ -440,7 +396,6 @@
     "notes": ""
   },
   {
-    "id": 50,
     "item": "EB membership",
     "buyPrice": 0,
     "sellPrice": -50,
@@ -450,17 +405,15 @@
     "notes": ""
   },
   {
-    "id": 51,
     "item": "first partner illustration collection series 3",
     "buyPrice": 56,
-    "sellPrice": null,
+    "sellPrice": 75,
     "buyDate": "19/7/26",
-    "sellDate": null,
+    "sellDate": "29/7/26",
     "buySource": "retail",
     "notes": "lion's den"
   },
   {
-    "id": 52,
     "item": "Johto Set First Partner Series 2",
     "buyPrice": 83,
     "sellPrice": null,
@@ -470,7 +423,6 @@
     "notes": "traded from blastoise 200/165"
   },
   {
-    "id": 53,
     "item": "Zarude EB Promo",
     "buyPrice": 0,
     "sellPrice": 20,
@@ -480,7 +432,6 @@
     "notes": "EB games"
   },
   {
-    "id": 54,
     "item": "Kanto Set First Partner Series 1",
     "buyPrice": 125.4,
     "sellPrice": null,
@@ -490,13 +441,84 @@
     "notes": "CR chat"
   },
   {
-    "id": 55,
-    "item": "Ascended Heroes Tin",
+    "item": "AH Tin",
     "buyPrice": 55,
     "sellPrice": 100,
     "buyDate": "1/8/26",
     "sellDate": "1/8/26",
     "buySource": "retail",
     "notes": "EB"
+  },
+  {
+    "item": "Kanto Set First Partner Series 1",
+    "buyPrice": 125.4,
+    "sellPrice": null,
+    "buyDate": "19/6/26",
+    "sellDate": null,
+    "buySource": "card revive",
+    "notes": "card revive"
+  },
+  {
+    "item": "Dom's Rips subscriptions",
+    "buyPrice": 10,
+    "sellPrice": 0,
+    "buyDate": "19/6/26",
+    "sellDate": null,
+    "buySource": "",
+    "notes": ""
+  },
+  {
+    "item": "Paldean Fates ETB",
+    "buyPrice": 535,
+    "sellPrice": 570,
+    "buyDate": "19/6/26",
+    "sellDate": "19/6/26",
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "item": "Prismatic Evolutions ETB",
+    "buyPrice": 240,
+    "sellPrice": 280,
+    "buyDate": "19/6/26",
+    "sellDate": "19/6/26",
+    "buySource": "marketplace",
+    "notes": ""
+  },
+  {
+    "item": "Yu Nagaba Glaceon PSA 10",
+    "buyPrice": 207.65,
+    "sellPrice": null,
+    "buyDate": "19/10/26",
+    "sellDate": null,
+    "buySource": "super10 ebay",
+    "notes": ""
+  },
+  {
+    "item": "Yu Nagaba Eevee PSA 10",
+    "buyPrice": 252.65,
+    "sellPrice": null,
+    "buyDate": "19/10/26",
+    "sellDate": null,
+    "buySource": "super10 ebay",
+    "notes": ""
+  },
+  {
+    "item": "Yu Nagaba Flareon PSA 10",
+    "buyPrice": 207.65,
+    "sellPrice": null,
+    "buyDate": "19/10/26",
+    "sellDate": null,
+    "buySource": "super10 ebay",
+    "notes": ""
+  },
+  {
+    "item": "30th Anniversary ETB",
+    "buyPrice": 100,
+    "sellPrice": 240,
+    "buyDate": "19/10/26",
+    "sellDate": "19/10/26",
+    "buySource": "kmart",
+    "notes": ""
   }
 ]

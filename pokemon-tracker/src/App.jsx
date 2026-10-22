@@ -136,7 +136,7 @@ const sortTrades = (trades, sortConfig) => {
 
     if (aValue < bValue) return -1 * order
     if (aValue > bValue) return 1 * order
-    return a.id - b.id
+    return 0
   })
 }
 

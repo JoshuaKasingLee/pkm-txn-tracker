@@ -41,10 +41,10 @@ function TradesTable({ trades, sortConfig, onSort, page = 1, perPage = 10, total
             </tr>
           </thead>
           <tbody>
-            {trades.map((trade) => {
+            {trades.map((trade, index) => {
               const profit = calculateProfit(trade)
               return (
-                <tr key={trade.id}>
+                <tr key={index}>
                   <td>{trade.item || '—'}</td>
                   <td>{formatCurrency(trade.buyPrice)}</td>
                   <td>{trade.sellPrice !== null ? formatCurrency(trade.sellPrice) : '—'}</td>
