@@ -192,30 +192,30 @@
   {
     "id": 20,
     "item": "pitch black ETB",
-    "buyPrice": 108,
-    "sellPrice": 130,
+    "buyPrice": 110,
+    "sellPrice": null,
     "buyDate": "1/5/26",
-    "sellDate": "19/7/26",
-    "buySource": "retail",
+    "sellDate": null,
+    "buySource": "EB games",
     "notes": "EB"
   },
   {
     "id": 21,
     "item": "pitch black booster bundle",
-    "buyPrice": 53,
-    "sellPrice": 70,
+    "buyPrice": 54,
+    "sellPrice": null,
     "buyDate": "1/5/26",
-    "sellDate": "19/7/26",
+    "sellDate": null,
     "buySource": "retail",
     "notes": "EB"
   },
   {
     "id": 23,
     "item": "pitch black booster bundle",
-    "buyPrice": 53,
-    "sellPrice": 70,
+    "buyPrice": 54,
+    "sellPrice": null,
     "buyDate": "1/5/26",
-    "sellDate": "19/7/26",
+    "sellDate": null,
     "buySource": "retail",
     "notes": "EB"
   },
@@ -242,7 +242,7 @@
   {
     "id": 26,
     "item": "pitch black booster bundle",
-    "buyPrice": 51.60,
+    "buyPrice": 51.6,
     "sellPrice": 75,
     "buyDate": "1/5/26",
     "sellDate": "22/7/26",
@@ -252,7 +252,7 @@
   {
     "id": 27,
     "item": "pitch black booster bundle",
-    "buyPrice": 51.60,
+    "buyPrice": 51.6,
     "sellPrice": 75,
     "buyDate": "1/5/26",
     "sellDate": "22/7/26",
@@ -262,7 +262,7 @@
   {
     "id": 28,
     "item": "pitch black booster bundle",
-    "buyPrice": 51.60,
+    "buyPrice": 51.6,
     "sellPrice": null,
     "buyDate": "1/5/26",
     "sellDate": null,
@@ -272,7 +272,7 @@
   {
     "id": 29,
     "item": "pitch black booster bundle",
-    "buyPrice": 51.60,
+    "buyPrice": 51.6,
     "sellPrice": null,
     "buyDate": "1/5/26",
     "sellDate": null,
@@ -282,7 +282,7 @@
   {
     "id": 30,
     "item": "pitch black booster bundle",
-    "buyPrice": 51.60,
+    "buyPrice": 51.6,
     "sellPrice": null,
     "buyDate": "1/5/26",
     "sellDate": null,
@@ -488,5 +488,15 @@
     "sellDate": null,
     "buySource": "CR",
     "notes": "CR chat"
+  },
+  {
+    "id": 55,
+    "item": "Ascended Heroes Tin",
+    "buyPrice": 55,
+    "sellPrice": null,
+    "buyDate": "1/8/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "EB"
   }
 ]
