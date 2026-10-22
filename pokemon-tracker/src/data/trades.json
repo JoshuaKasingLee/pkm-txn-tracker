@@ -493,9 +493,9 @@
     "id": 55,
     "item": "Ascended Heroes Tin",
     "buyPrice": 55,
-    "sellPrice": null,
+    "sellPrice": 100,
     "buyDate": "1/8/26",
-    "sellDate": null,
+    "sellDate": "1/8/26",
     "buySource": "retail",
     "notes": "EB"
   }
