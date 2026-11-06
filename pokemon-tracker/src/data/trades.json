@@ -398,7 +398,7 @@
   {
     "item": "EB membership",
     "buyPrice": 0,
-    "sellPrice": -50,
+    "sellPrice": -100,
     "buyDate": "1/5/26",
     "sellDate": null,
     "buySource": "",
@@ -625,9 +625,18 @@
     "buyPrice": 64.92,
     "sellPrice": null,
     "buyDate": "22/10/26",
-    "sellDate": "22/10/26",
+    "sellDate": null,
     "buySource": "retail",
     "notes": "jbhifi"
+  },
+  {
+    "item": "30th Anniversary 4 Booster Tin",
+    "buyPrice": 60,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "kidstuff"
   },
   {
     "item": "Delta Reign Booster Bundle",
@@ -666,20 +675,38 @@
     "notes": "eb"
   },
   {
+    "item": "Delta Reign Booster Bundle",
+    "buyPrice": 60,
+    "sellPrice": null,
+    "buyDate": "22/10/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "kidstuff"
+  },
+  {
     "item": "Delta Reign ETB",
     "buyPrice": 108,
-    "sellPrice": null,
+    "sellPrice": 150,
     "buyDate": "22/10/26",
     "sellDate": null,
     "buySource": "retail",
     "notes": "eb"
   },
   {
+    "item": "Delta Reign ETB",
+    "buyPrice": 120,
+    "sellPrice": 150,
+    "buyDate": "22/10/26",
+    "sellDate": "6/11/26",
+    "buySource": "retail",
+    "notes": "kidstuff"
+  },
+  {
     "item": "Delta Reign Booster Box",
     "buyPrice": 296.32,
-    "sellPrice": null,
+    "sellPrice": 330,
     "buyDate": "22/10/26",
-    "sellDate": null,
+    "sellDate": "22/10/26",
     "buySource": "retail",
     "notes": "eb"
   },
@@ -758,9 +785,9 @@
   {
     "item": "AH Focussed Fighters Collection",
     "buyPrice": 181.1,
-    "sellPrice": null,
+    "sellPrice": 250,
     "buyDate": "22/10/26",
-    "sellDate": null,
+    "sellDate": "22/10/26",
     "buySource": "retail",
     "notes": "eb"
   },
@@ -781,5 +808,15 @@
     "sellDate": null,
     "buySource": "retail",
     "notes": "eb"
+  },
+  {
+    "item": "Groudon EB Promo Card",
+    "buyPrice": 0,
+    "sellPrice": null,
+    "buyDate": "6/11/26",
+    "sellDate": null,
+    "buySource": "retail",
+    "notes": "eb"
   }
+  
 ]
